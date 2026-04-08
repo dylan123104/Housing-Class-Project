@@ -1,0 +1,41 @@
+# Raw data - too large and not needed since we share data_cleaned.csv
+data.csv
+
+# Claude Code project instructions - local use only
+CLAUDE.md
+
+# Jupyter Notebook checkpoints - auto-generated, not needed
+.ipynb_checkpoints/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+env/
+.env/
+
+# Environment variable files (never commit secrets)
+.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE folders
+.vscode/
+.idea/
+
+# Compiled Python files
+*.pyc
+*.pyo
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Logs
+*.log
