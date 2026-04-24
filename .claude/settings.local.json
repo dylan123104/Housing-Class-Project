@@ -3,7 +3,16 @@
     "allow": [
       "Bash(python -c \"import json; nb=json.load\\(open\\('modeling.ipynb'\\)\\); cells=nb['cells']; [print\\(i, c['id'], c['cell_type'], repr\\(c['source'][:1] if isinstance\\(c['source'], list\\) else c['source'][:60]\\)\\) for i,c in enumerate\\(cells\\)]\")",
       "Bash(python -c \"import json; nb=json.load\\(open\\('modeling.ipynb', encoding='utf-8'\\)\\); cells=nb['cells']; [print\\(i, c['id'], c['cell_type'], repr\\(\\(c['source'][0] if isinstance\\(c['source'], list\\) and c['source'] else ''\\)[:60]\\)\\) for i,c in enumerate\\(cells\\)]\")",
-      "Bash(python -c ' *)"
+      "Bash(python -c ' *)",
+      "Bash(node -e \"console.log\\(require\\('docx'\\).Document ? 'ok' : 'missing'\\)\")",
+      "Bash(npm list *)",
+      "Bash(npm root *)",
+      "Bash(npm install *)",
+      "Bash(export NODE_PATH=\"C:/Users/djhic/AppData/Roaming/npm/node_modules\")",
+      "Bash(node \"C:/Users/djhic/Downloads/New I SY E 521/Housing Project/build_abstract.js\")",
+      "Bash(python \"C:/Users/djhic/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/3dbba531-c5f2-4565-a51a-f009f67b0753/3995f2c8-2c43-4ad2-8c56-dc0c57c36b6f/skills/docx/scripts/office/validate.py\" \"C:/Users/djhic/Downloads/New I SY E 521/Housing Project/ISYE 521 Project Abstract.docx\")",
+      "Bash(export PYTHONIOENCODING=utf-8 PYTHONUTF8=1)",
+      "Bash(python \"C:/Users/djhic/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/3dbba531-c5f2-4565-a51a-f009f67b0753/3995f2c8-2c43-4ad2-8c56-dc0c57c36b6f/skills/docx/scripts/office/soffice.py\" --headless --convert-to pdf \"ISYE 521 Project Abstract.docx\")"
     ]
   }
 }
